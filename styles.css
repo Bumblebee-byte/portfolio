@@ -5,7 +5,7 @@ html {
 body {
   background: url("/public/images/earth.jpg") no-repeat center center fixed;
   background-size: cover;
-  color: white;
+  color: rgb(18, 3, 3);
   margin: 0;
   padding: 0;
 
@@ -19,7 +19,7 @@ body::before {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(21, 18, 18, 0.7);
+  background: rgba(18, 9, 9, 0.7);
   z-index: -5;
 }
 
@@ -35,7 +35,7 @@ body::before {
 .hero h1 {
   font-size: 3rem;
   font-weight: bold;
-  color: aliceblue;
+  color: rgb(82, 156, 225);
 }
 
 .hero span {
@@ -44,7 +44,7 @@ body::before {
 
 /* Sticky Navbar */
 .navbar {
-  background-color: rgba(0, 0, 0, 0.9) !important;
+  background-color: rgba(14, 160, 227, 0.9) !important;
 }
 
 .navbar .nav-link {
@@ -76,8 +76,8 @@ body::before {
   height: 100%;
   background: linear-gradient(
     135deg,
-    rgba(76, 84, 255, 0.8) 0%,
-    rgba(188, 58, 252, 0.8) 100%
+    rgba(101, 108, 224, 0.8) 0%,
+    rgba(252, 142, 58, 0.8) 100%
   );
   opacity: 0;
   z-index: 1;
@@ -86,7 +86,7 @@ body::before {
 
 .project-card:hover {
   transform: translateY(-15px) scale(1.03);
-  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 15px 30px rgba(59, 44, 44, 0.2);
 }
 
 .project-card:hover:before {
@@ -149,7 +149,7 @@ body::before {
   display: inline-block;
   padding: 8px 20px;
   background-color: white;
-  color: #6c5ce7;
+  color: #8c7fee;
   border-radius: 50px;
   font-weight: 600;
   text-decoration: none;
@@ -389,7 +389,7 @@ body::before {
 }
 
 .contact-container {
-  background: rgba(68, 56, 56, 0.85);
+  background: rgba(39, 52, 86, 0.85);
   backdrop-filter: blur(10px);
   border-radius: 20px;
   padding: 40px;
@@ -443,7 +443,7 @@ body::before {
 }
 
 .form-control:focus {
-  box-shadow: 0 5px 15px rgba(108, 92, 231, 0.2);
+  box-shadow: 0 5px 15px rgba(109, 96, 209, 0.2);
   transform: translateY(-3px);
 }
 
@@ -451,7 +451,7 @@ body::before {
   position: absolute;
   left: 20px;
   top: 15px;
-  color: #aaa;
+  color: #184cf5;
   font-size: 1rem;
   transition: all 0.3s ease;
   pointer-events: none;
@@ -463,7 +463,7 @@ body::before {
   left: 15px;
   font-size: 0.8rem;
   color: var(--primary-color);
-  background: rgb(70, 42, 47);
+  background: rgb(8, 19, 62);
   padding: 0 5px;
 }
 
@@ -582,7 +582,7 @@ body::before {
   left: 0;
   right: 0;
   height: 4px;
-  background: linear-gradient(90deg, #ff9a9e 0%, #fad0c4 100%);
+  background: linear-gradient(90deg, #f0adf0 0%, #3d518e 100%);
 }
 
 .footer-content {
@@ -653,7 +653,7 @@ body::before {
   position: absolute;
   width: 100%;
   height: 100%;
-  background: linear-gradient(135deg, #6f2f32 0%, #fad0c4 100%);
+  background: linear-gradient(135deg, #7462e6 0%, #a2abb4 100%);
   top: 100%;
   left: 0;
   transition: all 0.3s ease;
