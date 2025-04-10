@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  background: url("/public/images/earth.jpg") no-repeat center center fixed;
+  background: url("public/images/earth.jpg") no-repeat center center fixed;
   background-size: cover;
   color: rgb(18, 3, 3);
   margin: 0;
